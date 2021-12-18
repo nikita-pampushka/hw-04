@@ -3,6 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <title>Home Work 4</title>
+    <style>
+        p {
+            color: red;
+        }
+
+        .p2 {
+            color: blue;
+        }
+
+        p.p2#p2 {
+            color: forestgreen;
+        }
+
+        #p3 {
+            color: blueviolet;
+        }
+
+        .wrap {
+            color: chocolate;
+        }
+
+        .wrap .p5 {
+            color: brown;
+        }
+
+        #p6.p6 {
+            color: cadetblue;
+        }
+
+        #p7.p7.p7-1 {
+            color: chartreuse;
+        }
+
+        .p5 {
+            color: crimson !important;
+        }
+    </style>
 </head>
 <body>
     <h1>Part 1</h1>
@@ -11,5 +48,18 @@
         <li>По классу - свойство применится ко всем элементам, с таким классом. Например, .class {color: red}</li>
         <li>По id - свойство применится ко всем элементам, с таким id. Например, #id {color: red}</li>
     </ul>
+    <h1>Part 2</h1>
+    <div class="wrap">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, cumque.</p>
+        <p class="p2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, cumque.</p>
+        <p class="p2" id="p2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, cumque.</p>
+        <p id="p3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, cumque.</p>
+        <p style="color: aqua;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, cumque.</p>
+        <p class="p5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, cumque.</p>
+        <p class="p5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, cumque.</p>
+        <p class="p6" id="p6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, cumque.</p>
+        <p class="p7 p7-1" id="p7">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, cumque.</p>
+        <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, cumque.</span>
+    </div>
 </body>
 </html>
